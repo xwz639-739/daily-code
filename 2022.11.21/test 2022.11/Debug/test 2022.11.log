@@ -1,0 +1,7 @@
+﻿  test2.c
+D:\test\test 2022.11\test 2022.11\test2.c(67,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\test\test 2022.11\test 2022.11\test2.c(68,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\test\test 2022.11\test 2022.11\test2.c(69,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\test\test 2022.11\test 2022.11\test2.c(70,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\test\test 2022.11\test 2022.11\test2.c(73,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test 2022.11.vcxproj -> D:\test\test 2022.11\test 2022.11\Debug\test 2022.11.exe
