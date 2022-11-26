@@ -1,0 +1,4 @@
+﻿  CPP练习.c
+F:\code\daily\2022.11.26\daily\CPP练习.c(65,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\code\daily\2022.11.26\daily\CPP练习.c(68,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  daily.vcxproj -> F:\code\daily\2022.11.26\daily\Debug\daily.exe
