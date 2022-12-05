@@ -4,172 +4,172 @@
 #include<stdlib.h>
 #include<string.h>
 
-//int main()
-//{
-//	int num1, num2, sum;
-//	scanf("%d%d", &num1, &num2);
-//	sum = num1 + num2;
-//	printf("sum=%d", sum);
-//	return 0;
-//}
-//Á½ÊıÏà¼Ó
+int main()
+{
+	int num1, num2, sum;
+	scanf("%d%d", &num1, &num2);
+	sum = num1 + num2;
+	printf("sum=%d", sum);
+	return 0;
+}
+//ä¸¤æ•°ç›¸åŠ 
 
-//int main()
-//{
-//	int i = 1;
-//	while (i < 100)
-//	{
-//		printf("%d\n",i);
-//		i += 2;
-//	}
-//	return 0;
-//}
-//1µ½100µÄÆæÊı1
+int main()
+{
+	int i = 1;
+	while (i < 100)
+	{
+		printf("%d\n",i);
+		i += 2;
+	}
+	return 0;
+}
+//1åˆ°100çš„å¥‡æ•°1
 
-//int main()
-//{
-//	int ret, ch;
-//	char password[20] = { 0 };
-//	printf("ÇëÊäÈëÃÜÂë\n");
-//	scanf("%s", password);
-//	while ((ch = getchar()) != '\n')
-//	{
-//		;
-//	}
-// È¡×ß¡°\n¡±
-//	printf("ÇëÈ·ÈÏ£¨Y/N)\n");
-//	ret = getchar();
-//	if ('Y' == ret)
-//	{
-//		printf("È·ÈÏ³É¹¦\n");
-//	}
-//	else
-//	{
-//		printf("·ÅÆúÈ·ÈÏ\n");
-//	}
-//	return 0;
-//}
-//ÉèÖÃÃÜÂë
+int main()
+{
+	int ret, ch;
+	char password[20] = { 0 };
+	printf("è¯·è¾“å…¥å¯†ç \n");
+	scanf("%s", password);
+	while ((ch = getchar()) != '\n')
+	{
+		;
+	}
+å–èµ°â€œ\nâ€
+	printf("è¯·ç¡®è®¤ï¼ˆY/N)\n");
+	ret = getchar();
+	if ('Y' == ret)
+	{
+		printf("ç¡®è®¤æˆåŠŸ\n");
+	}
+	else
+	{
+		printf("æ”¾å¼ƒç¡®è®¤\n");
+	}
+	return 0;
+}
+//è®¾ç½®å¯†ç 
 
-//int main()
-//{
-//	int i = 0;
-//	for (i = 1; i <= 9; i++)
-//	{
-//		printf("%d\n", i);
-//	}
-//	return 0;
-//}
-//´òÓ¡1µ½9µÄÊı×Ö£¨forÓï¾ä£©
+int main()
+{
+	int i = 0;
+	for (i = 1; i <= 9; i++)
+	{
+		printf("%d\n", i);
+	}
+	return 0;
+}
+//æ‰“å°1åˆ°9çš„æ•°å­—ï¼ˆforè¯­å¥ï¼‰
 
-//int main()
-//{
-//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
-//	int left = 0;
-//	int right = sizeof(arr) / sizeof(arr[0])-1;
-//	int k = 7;
-//	while (left <= right)
-//	{
-//		int mid = (left + right) / 2;
-//		if (arr[mid] > k)
-//		{
-//			right = mid - 1;
-//		}
-//		else if (arr[mid]< k)
-//		{
-//			left = mid + 1;
-//		}
-//		else if (arr[mid] = k)
-//		{
-//			printf("ÕÒµ½ÁË£¬ÏÂ±êÊÇ£º%d\n", mid);
-//			break;
-//		}
-//	}
-//	if (left > right)
-//	{
-//		printf("ÕÒ²»µ½\n");
-//	}
-//	return 0;
-//}
-//¶ş·Ö²éÕÒ·¨
+int main()
+{
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int left = 0;
+	int right = sizeof(arr) / sizeof(arr[0])-1;
+	int k = 7;
+	while (left <= right)
+	{
+		int mid = (left + right) / 2;
+		if (arr[mid] > k)
+		{
+			right = mid - 1;
+		}
+		else if (arr[mid]< k)
+		{
+			left = mid + 1;
+		}
+		else if (arr[mid] = k)
+		{
+			printf("æ‰¾åˆ°äº†ï¼Œä¸‹æ ‡æ˜¯ï¼š%d\n", mid);
+			break;
+		}
+	}
+	if (left > right)
+	{
+		printf("æ‰¾ä¸åˆ°\n");
+	}
+	return 0;
+}
+//äºŒåˆ†æŸ¥æ‰¾æ³•
 
-//int main()
-//{
-//	int i = 1;
-//	while (i <= 100)
-//	{
-//		if (i % 2 == 1)
-//			printf("%d\n", i);
-//		i++;
-//	}
-//	return 0;
-//}
-//1µ½100µÄÆæÊı2
+int main()
+{
+	int i = 1;
+	while (i <= 100)
+	{
+		if (i % 2 == 1)
+			printf("%d\n", i);
+		i++;
+	}
+	return 0;
+}
+//1åˆ°100çš„å¥‡æ•°2
 
-//int main()
-//{
-//	int i = 0;
-//	int n = 0;
-//	int ret = 1;
-//	scanf("%d", n);
-//	for (i = 1; i <= n; i++)
-//	{
-//		ret = ret * i;
-//	}
-//	printf("ret=%d", ret);
-//	return 0;
-//}
-//nµÄ½×³Ë£¨ÓĞbug£©
+int main()
+{
+	int i = 0;
+	int n = 0;
+	int ret = 1;
+	scanf("%d", n);
+	for (i = 1; i <= n; i++)
+	{
+		ret = ret * i;
+	}
+	printf("ret=%d", ret);
+	return 0;
+}
+//nçš„é˜¶ä¹˜ï¼ˆæœ‰bugï¼‰
 
-//int main()
-//{
-//	int n = 0;
-//	int ret = 1;
-//	int sum = 0;
-//	for (n = 1; n <= 3; n++)
-//	{
-//		ret = ret * n;
-//		sum = sum + ret;
-//	}
-//	printf("sum=%d\n", sum);
-//	return 0;
-//}
-//¼ÆËã1£¡+2£¡+3£¡
+int main()
+{
+	int n = 0;
+	int ret = 1;
+	int sum = 0;
+	for (n = 1; n <= 3; n++)
+	{
+		ret = ret * n;
+		sum = sum + ret;
+	}
+	printf("sum=%d\n", sum);
+	return 0;
+}
+//è®¡ç®—1ï¼+2ï¼+3ï¼
 
-//int main()
-//{
-//	char arr1[] = "hello!!!!!";
-//	char arr2[] = "          ";
-//	int left = 0;
-//	int right = strlen(arr1)-1;
-//	while (left <= right)
-//	{
-//		arr2[left] = arr1[left];
-//		arr2[right] = arr1[right];
-//		printf("%s\n", arr2);
-//		Sleep(1500);
-//		system("cls");
-//		left++;
-//		right--;
-//	}
-//	printf("%s\n", arr2);
-//	return 0;
-//}
-//×Ö·ûÏòÖĞ¼ä»ã¾Û
+int main()
+{
+	char arr1[] = "hello!!!!!";
+	char arr2[] = "          ";
+	int left = 0;
+	int right = strlen(arr1)-1;
+	while (left <= right)
+	{
+		arr2[left] = arr1[left];
+		arr2[right] = arr1[right];
+		printf("%s\n", arr2);
+		Sleep(1500);
+		system("cls");
+		left++;
+		right--;
+	}
+	printf("%s\n", arr2);
+	return 0;
+}
+//å­—ç¬¦å‘ä¸­é—´æ±‡èš
 
-//void swap(int* a, int* b)
-//{
-//	int tmp = 0;
-//	tmp =*a;
-//	*a = *b;
-//	*b = tmp;
-//}
-//int main()
-//{
-//	int a, b;
-//	scanf("%d%d", &a, &b);
-//	printf("a=%d  b=%d\n", a, b);
-//	swap(a, b);
-//	printf("a=%d  b=%d\n", a, b);
-//	return 0;
-//}
+void swap(int* a, int* b)
+{
+	int tmp = 0;
+	tmp =*a;
+	*a = *b;
+	*b = tmp;
+}
+int main()
+{
+	int a, b;
+	scanf("%d%d", &a, &b);
+	printf("a=%d  b=%d\n", a, b);
+	swap(a, b);
+	printf("a=%d  b=%d\n", a, b);
+	return 0;
+}
